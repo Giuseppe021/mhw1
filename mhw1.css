@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+}
+
+a {
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Noto sans, sans-serif;
+	color: #7a7a7a;
+	padding: 5px 15px;
+	text-decoration: none;
+
+}
+a:hover{ color:skyblue; }
+.nav1 {
+	display: flex;
+	font-family: sans-serif;
+	justify-content: space-between;
+	
+	
+
+	padding-left: 17.5%;
+	padding-right: 17.5%;
+}
+
+
+.nav2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	font-family: Helvetica, sans-serif;
+	height: 110px;
+	box-shadow: 2px 2px 11px 0 rgba(0,0,0,.3);
+
+	padding-left: 17.5%;
+	padding-right: 17.5%;
+}
+
+#elementNav{
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+
+
+.header{
+	height: 50px;
+}
+
+
+.carousel{
+	width: 70%;
+	height: 70%;
+	padding-top: 25px;
+	padding-left: 180px;
+}
+
+#flex-container{
+	display: flex;
+	padding: 10px;
+	height: auto;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.flex-item {
+	display: flex;
+	height: 318px;
+	width: 257px;
+}
+
+.productprice, .productdescription{
+	text-align: center;
+	padding: 0px;
+}
+
+footer{
+
+	box-shadow: 2px 2px 11px 0 rgba(0,0,0,.3);
+	margin: 0;
+	background-color: white;
+}
+
+.colfooter{
+	display: flex;
+	width: 65%;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+	justify-content: flex-start;
+}
+
+.elementfooter{
+	width: 15%;
+	margin-right: 5%;
+}
+.aFooter{
+	color: gray;
+	margin: 0%;
+	padding: 0px;
+	display: block;
+	margin-bottom: 5px;
+	font-size: .875rem;
+	font-weight: normal;
+}
+
+.aa{
+	margin-top: 3%;
+	width: 100%;
+	text-align: center;
+}
